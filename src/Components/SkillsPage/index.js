@@ -40,9 +40,6 @@ const SkillsPage = () => {
       }}
     >
       <Container>
-        <Row style={rowStyle2}>
-          <Col style={colStyle2}>끊임없이 공부하고 발전하는 개발자</Col>
-        </Row>
         <Row style={rowStyle1}>
           <Col style={colStyle1}>Skills</Col>
         </Row>

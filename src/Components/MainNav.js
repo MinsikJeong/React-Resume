@@ -4,7 +4,7 @@ import { Nav, Button } from "react-bootstrap";
 const MainNav = () => {
 
   const itemStyle = {
-    fontSize: 18,
+    fontSize: 24,
     color: '#fff',
     fontWeight: 'bolder'
   }
@@ -17,20 +17,20 @@ const MainNav = () => {
         backgroundColor: 'black',
         justifyContent: 'center',
         alignItems: 'center',
-        height: 170,
+        height: 120,
       }}
     >
-    
+
       <Nav.Item as="li">
         <Nav.Link href="/" style={itemStyle}>Main</Nav.Link>
       </Nav.Item>
 
       <Nav.Item as="li">
-        <Nav.Link href="/skills" style={itemStyle}>Skills</Nav.Link>
+        <Nav.Link href="/aboutme" style={itemStyle}>Aboutme</Nav.Link>
       </Nav.Item>
 
       <Nav.Item as="li">
-        <Nav.Link href="/educations" style={itemStyle}>Educations</Nav.Link>
+        <Nav.Link href="/skills" style={itemStyle}>Skills</Nav.Link>
       </Nav.Item>
 
       <Nav.Item as="li">

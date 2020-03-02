@@ -30,7 +30,7 @@ const PortfolioPage = () => {
     <Jumbotron style={{
         backgroundColor: "black",
         borderRadius: 0,
-        height: 500
+        height: 700
       }}
     >
       <Container>

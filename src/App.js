@@ -1,7 +1,7 @@
 import React from 'react';
 import MainNav from "./Components/MainNav";
 import MainPage from "./Components/MainPage";
-import EducationsPage from "./Components/EducationsPage";
+import AboutmePage from "./Components/AboutmePage";
 import PortfolioPage from "./Components/PortfolioPage";
 import SkillsPage from "./Components/SkillsPage";
 import NotFoundPage from "./Components/NotFoundPage";
@@ -14,10 +14,10 @@ function App() {
       <MainNav />
       <Switch>
         <Route exact path="/" component={MainPage} />
-        <Route path="/skills" component={SkillsPage}/>
-        <Route path="/educations" component={EducationsPage}/>
-        <Route path="/portfolio" component={PortfolioPage}/>
-        <Route component={NotFoundPage}/>
+        <Route exact path="/aboutme" component={AboutmePage} />
+        <Route path="/skills" component={SkillsPage} />
+        <Route path="/portfolio" component={PortfolioPage} />
+        <Route component={NotFoundPage} />
       </Switch>
     </>
   );

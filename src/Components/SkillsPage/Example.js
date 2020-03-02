@@ -5,7 +5,7 @@ const Example = () => {
 
   return (
   <>
-  {['Javascript', 'CSS', 'HTML'].map(lan => (
+  {['Javascript', 'Typescript'].map(lan => (
   <OverlayTrigger
     trigger="click"
     key={lan}
@@ -15,9 +15,8 @@ const Example = () => {
         <Popover.Title as="h3">{lan}</Popover.Title>
         <Popover.Content>
           <strong>
-            { lan === 'Javascript' ? 'es8 및 typescript을 공부할 계획입니다' : null }
-            { lan === 'CSS' ? 'Flexbox, Grid system 을 공부 중입니다' : null }
-            { lan === 'HTML' ? 'jsx를 더욱 정확히 쓰기 위한 공부 중입니다' : null }
+            { lan === 'Javascript' ? '꾸준히 공부 중입니다.' : null }
+            { lan === 'Typescript' ? '아직 완벽하진 않지만 RN개발에 적용하는 중입니다.' : null }
           </strong>
         </Popover.Content>
       </Popover>
